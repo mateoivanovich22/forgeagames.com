@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="es-419">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bunker · Un juego de Forgea Games</title>
+<meta name="description" content="Construí y sostené un bunker en tiempo real durante el fin del mundo. Próximamente en iPhone, Android, Nintendo Switch 2 y PC.">
+<link rel="canonical" href="https://forgeagames.com/bunker/">
+<link rel="alternate" hreflang="es" href="https://forgeagames.com/bunker/">
+<link rel="alternate" hreflang="en" href="https://forgeagames.com/en/bunker/">
+<link rel="alternate" hreflang="pt-BR" href="https://forgeagames.com/pt/bunker/">
+<link rel="alternate" hreflang="x-default" href="https://forgeagames.com/bunker/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Forgea Games">
+<meta property="og:title" content="Bunker · Un juego de Forgea Games">
+<meta property="og:description" content="Construí y sostené un bunker en tiempo real durante el fin del mundo. Próximamente en iPhone, Android, Nintendo Switch 2 y PC.">
+<meta property="og:url" content="https://forgeagames.com/bunker/">
+<meta property="og:image" content="https://forgeagames.com/assets/img/og/bunker.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="es_LA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#15100d">
+<link rel="icon" href="../assets/favicon.ico?v=51ffd962" sizes="32x32">
+<link rel="icon" type="image/png" href="../assets/img/forgea/favicon-32.png?v=cf8dc2ad">
+<link rel="apple-touch-icon" href="../assets/img/forgea/apple-touch-icon.png?v=81896b90">
+<link rel="manifest" href="../site.webmanifest">
+<link rel="preload" href="../assets/fonts/bunker-pixel-700.woff2?v=e2ce16b4" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/sitio.css?v=8b148fa3">
+<script>document.documentElement.classList.add('js')</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "VideoGame", "name": "Bunker", "description": "Construí y sostené un bunker en tiempo real durante el fin del mundo. Próximamente en iPhone, Android, Nintendo Switch 2 y PC.", "url": "https://forgeagames.com/bunker/", "image": "https://forgeagames.com/assets/img/og/bunker.png", "genre": ["Simulation", "Survival", "Strategy"], "gamePlatform": ["iOS", "Android", "Nintendo Switch 2", "PC"], "inLanguage": ["es", "en", "pt-BR"], "publisher": {"@type": "Organization", "name": "Forgea Games", "url": "https://forgeagames.com/"}}</script>
+</head>
+<body class="pagina-bunker">
+<a class="saltar" href="#contenido">Saltar al contenido</a>
+<header class="cabecera">
+  <div class="cabecera__in">
+    <a class="marca" href="../">
+      <img class="marca__yunque" src="../assets/img/forgea/yunque.png?v=7bada921" width="64" height="54" alt="">
+      <img class="marca__texto" src="../assets/img/forgea/logo-linea.png?v=d638ceb3" width="149" height="18" alt="Forgea Games">
+    </a>
+    <button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu">
+      <span class="menu-boton__barras" aria-hidden="true"></span>
+      <span class="oculto">Menú</span>
+    </button>
+    <nav id="menu" class="menu" aria-label="Principal">
+      <a class="menu__link" href="../#juegos">Juegos</a>
+      <a class="menu__solapa" href="./" aria-current="page">
+        <img src="../assets/img/bunker/icono.png?v=cd34c336" width="28" height="28" alt="">
+        <span>Bunker</span>
+      </a>
+      <a class="menu__link" href="../#estudio">Estudio</a>
+      <a class="menu__link" href="../#contacto">Contacto</a>
+      <div class="idiomas" role="group" aria-label="Idioma"><a href="./" hreflang="es" lang="es-419" title="Español" aria-current="true">ES</a><a href="../en/bunker/" hreflang="en" lang="en" title="English">EN</a><a href="../pt/bunker/" hreflang="pt-BR" lang="pt-BR" title="Português">PT</a></div>
+    </nav>
+  </div>
+</header>
+<main id="contenido">
+<section class="escena" aria-labelledby="titulo-bunker">
+  <div class="escena__cuadro" role="img" aria-label="El bunker en corte: arriba el árbol, la huerta, los paneles, la antena y la laguna; abajo, las salas con la gente trabajando.">
+    <img class="escena__arte pixel" data-momento="manana" src="../assets/img/bunker/momento-manana.webp?v=f845cb62" width="480" height="270" alt="">
+    <img class="escena__arte pixel es-visible" data-momento="mediodia" src="../assets/img/bunker/momento-mediodia.webp?v=21f9801d" width="480" height="270" alt="">
+    <img class="escena__arte pixel" data-momento="tarde" src="../assets/img/bunker/momento-tarde.webp?v=a9194ed6" width="480" height="270" alt="">
+    <img class="escena__arte pixel" data-momento="noche" src="../assets/img/bunker/momento-noche.webp?v=fdb2fbb7" width="480" height="270" alt="">
+  </div>
+  <div class="escena__cartel">
+    <h1 id="titulo-bunker" class="cartel"><img class="pixel" src="../assets/img/bunker/logo.png?v=56a0c69b" width="189" height="64" alt="Bunker game"></h1>
+    <p class="papelito">Nombre provisorio</p>
+  </div>
+  <div class="barra">
+    <div class="barra__in">
+      <div class="momentos" role="group" aria-label="Momento del día">
+        <button class="momento" type="button" data-momento="manana" aria-pressed="false"><span class="momento__cielo" aria-hidden="true"></span>Mañana</button>
+        <button class="momento" type="button" data-momento="mediodia" aria-pressed="true"><span class="momento__cielo" aria-hidden="true"></span>Mediodía</button>
+        <button class="momento" type="button" data-momento="tarde" aria-pressed="false"><span class="momento__cielo" aria-hidden="true"></span>Tarde</button>
+        <button class="momento" type="button" data-momento="noche" aria-pressed="false"><span class="momento__cielo" aria-hidden="true"></span>Noche</button>
+      </div>
+      <p class="barra__texto">
+        <span class="barra__reloj">El día del juego sigue tu reloj.</span>
+        <span class="barra__desc" aria-live="polite"
+          data-manana="Cielo lila, el sol asoma detrás de las montañas y hay neblina sobre las lomas." data-mediodia="Sol alto y los paneles solares a pleno."
+          data-tarde="El sol baja y todo se pone dorado." data-noche="Luces cálidas adentro, luciérnagas afuera y la antena que titila."
+          data-ahora="Ahora">Sol alto y los paneles solares a pleno.</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<div class="subsuelo">
+  <section class="bloque" aria-labelledby="titulo-plataformas">
+    <div class="contenedor">
+      <div class="tabla presentacion">
+        <p class="presentacion__lema">Construí y sostené un bunker en tiempo real durante el fin del mundo.</p>
+        <p>Cavá tu bunker, organizá a tu gente y decidí a quién dejar entrar. Todo pasa en tiempo real: las obras tardan minutos u horas de verdad, los cultivos crecen mientras no mirás y las catástrofes llegan con aviso de la radio.</p>
+      </div>
+      <h2 id="titulo-plataformas" class="titulo-bloque">Próximamente en</h2>
+      <ul class="plataformas">
+        <li class="plataforma">
+          <img class="pixel" src="../assets/img/iconos/celular.png?v=62408f37" width="42" height="42" alt="">
+          <span class="plataforma__texto"><span class="plataforma__sub">iPhone y iPad</span><span class="plataforma__nombre">App Store</span></span>
+          <span class="cinta">Próximamente</span>
+        </li>
+        <li class="plataforma">
+          <img class="pixel" src="../assets/img/iconos/celular.png?v=62408f37" width="42" height="42" alt="">
+          <span class="plataforma__texto"><span class="plataforma__sub">Android</span><span class="plataforma__nombre">Google Play</span></span>
+          <span class="cinta">Próximamente</span>
+        </li>
+        <li class="plataforma">
+          <img class="pixel" src="../assets/img/iconos/consola.png?v=cbda103f" width="42" height="42" alt="">
+          <span class="plataforma__texto"><span class="plataforma__sub">Consola</span><span class="plataforma__nombre">Nintendo Switch 2</span></span>
+          <span class="cinta">Próximamente</span>
+        </li>
+        <li class="plataforma">
+          <img class="pixel" src="../assets/img/iconos/pc.png?v=836e773e" width="42" height="42" alt="">
+          <span class="plataforma__texto"><span class="plataforma__sub">Steam y más</span><span class="plataforma__nombre">PC</span></span>
+          <span class="cinta">Próximamente</span>
+        </li>
+      </ul>
+      <p class="bloque__nota">Sale primero en celulares; después llega a Nintendo Switch 2 y a PC.</p>
+    </div>
+  </section>
+
+  <section class="bloque" aria-labelledby="titulo-que">
+    <div class="contenedor">
+      <h2 id="titulo-que" class="titulo-bloque">Qué vas a hacer</h2>
+      <ul class="notas">
+        <li class="nota">
+          <img class="nota__icono pixel" src="../assets/img/iconos/pico.png?v=e7f024ea" width="42" height="42" alt="">
+          <h3>Cavá y construí</h3>
+          <p>Dormitorio, cocina, huerta hidropónica, generador, radio, enfermería, taller, aula y más. Cada sala tiene su tamaño y sus niveles.</p>
+        </li>
+        <li class="nota">
+          <img class="nota__icono pixel" src="../assets/img/iconos/cultivo.png?v=cec25bb1" width="42" height="42" alt="">
+          <h3>Salí afuera</h3>
+          <p>Cultivá, criá gallinas, juntá agua y energía, y defendé el cerco.</p>
+        </li>
+        <li class="nota">
+          <img class="nota__icono pixel" src="../assets/img/iconos/puerta.png?v=e28a54f1" width="42" height="42" alt="">
+          <h3>Decidí quién entra</h3>
+          <p>Llegan visitantes y algunos mienten. Comerciá con el mercader y mandá expediciones a la gasolinera, el hospital o la mina.</p>
+        </li>
+        <li class="nota">
+          <img class="nota__icono pixel" src="../assets/img/iconos/meteoro.png?v=5751cfda" width="42" height="42" alt="">
+          <h3>Aguantá las catástrofes</h3>
+          <p>Lluvia de meteoritos, tormentas de arena, ventiscas, lobos y saqueos. La radio avisa antes y después hay que reparar.</p>
+        </li>
+        <li class="nota">
+          <img class="nota__icono pixel" src="../assets/img/iconos/mapa.png?v=d94cda07" width="42" height="42" alt="">
+          <h3>Destapá el mapa</h3>
+          <p>Con la Sala de mapas aparecen el pueblo, la ciudad en ruinas, la base militar, los vecinos y el campamento de saqueadores.</p>
+        </li>
+        <li class="nota">
+          <img class="nota__icono pixel" src="../assets/img/iconos/reloj_arena.png?v=284cdc92" width="42" height="42" alt="">
+          <h3>Hasta 3 bunkers</h3>
+          <p>Cada uno con su bioma y su nombre, y los 3 siguen avanzando aunque juegues otro.</p>
+        </li>
+      </ul>
+      <p class="bloque__nota bloque__nota--oro"><img class="pixel" src="../assets/img/iconos/oro.png?v=15eddbd4" width="28" height="28" alt="">Sin publicidad. Compras opcionales de oro para terminar obras al instante.</p>
+    </div>
+  </section>
+
+  <section class="bloque" aria-labelledby="titulo-biomas">
+    <div class="contenedor">
+      <h2 id="titulo-biomas" class="titulo-bloque">Elegí tu bioma</h2>
+      <p class="bloque__intro">El bioma no se cambia después: define el clima, los cultivos y las amenazas.</p>
+      <ul class="biomas">
+        <li class="bioma">
+          <figure class="foto"><img class="pixel" src="../assets/img/bunker/bioma-pradera.webp?v=c596089e" width="480" height="270" alt="La pradera desde arriba: parcelas, gallinero, la lomita con la puerta del bunker y la laguna con la cascada." loading="lazy"></figure>
+          <div class="bioma__texto">
+            <h3>Pradera</h3>
+            <p class="chip chip--verde">Para aprender</p>
+            <dl class="datos">
+              <div><dt>Cultivos</dt><dd>Tomate, maíz, trigo, zapallo</dd></div>
+              <div><dt>Agua</dt><dd>Laguna y pozo</dd></div>
+              <div><dt>Energía</dt><dd>Sol y viento</dd></div>
+              <div><dt>Amenazas</dt><dd>Tormentas y plagas</dd></div>
+            </dl>
+          </div>
+        </li>
+        <li class="bioma">
+          <figure class="foto"><img class="pixel" src="../assets/img/bunker/bioma-desierto.webp?v=8e8488a4" width="480" height="270" alt="El desierto desde arriba: arena, cactus, palmeras y un oasis." loading="lazy"></figure>
+          <div class="bioma__texto">
+            <h3>Desierto</h3>
+            <p class="chip chip--arena">El agua escasea</p>
+            <dl class="datos">
+              <div><dt>Cultivos</dt><dd>Tunas, dátiles, aloe, sorgo</dd></div>
+              <div><dt>Agua</dt><dd>Pozos y atrapanieblas</dd></div>
+              <div><dt>Energía</dt><dd>Sol: rinde el doble</dd></div>
+              <div><dt>Amenazas</dt><dd>Arena, calor y langostas</dd></div>
+            </dl>
+          </div>
+        </li>
+        <li class="bioma">
+          <figure class="foto"><img class="pixel" src="../assets/img/bunker/bioma-tundra.webp?v=2d4182c1" width="480" height="270" alt="La tundra desde arriba: nieve, invernaderos, un molino y lobos al acecho." loading="lazy"></figure>
+          <div class="bioma__texto">
+            <h3>Tundra</h3>
+            <p class="chip chip--hielo">Frío extremo</p>
+            <dl class="datos">
+              <div><dt>Cultivos</dt><dd>Papa, repollo, nabo</dd></div>
+              <div><dt>Agua</dt><dd>Nieve derretida</dd></div>
+              <div><dt>Energía</dt><dd>Viento y calor del suelo</dd></div>
+              <div><dt>Amenazas</dt><dd>Ventiscas y lobos</dd></div>
+            </dl>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="bloque" aria-labelledby="titulo-capturas">
+    <div class="contenedor">
+      <h2 id="titulo-capturas" class="titulo-bloque">Capturas</h2>
+      <ul class="galeria">
+        <li><a class="galeria__item" href="../assets/img/bunker/capturas/es/1-bunker.webp?v=8db9c5b9"><img src="../assets/img/bunker/capturas/es/1-bunker-chica.webp?v=d499cb96" width="960" height="540" alt="El bunker en corte, al mediodía" loading="lazy"></a><p>El bunker en corte, al mediodía</p></li>
+        <li><a class="galeria__item" href="../assets/img/bunker/capturas/es/2-afuera.webp?v=7426a583"><img src="../assets/img/bunker/capturas/es/2-afuera-chica.webp?v=04a20ba2" width="960" height="540" alt="Afuera, desde arriba: cultivos, gallinero y laguna" loading="lazy"></a><p>Afuera, desde arriba: cultivos, gallinero y laguna</p></li>
+        <li><a class="galeria__item" href="../assets/img/bunker/capturas/es/4-construir.webp?v=b3e15cf6"><img src="../assets/img/bunker/capturas/es/4-construir-chica.webp?v=6f6fcd83" width="960" height="540" alt="Los planos para construir salas" loading="lazy"></a><p>Los planos para construir salas</p></li>
+        <li><a class="galeria__item" href="../assets/img/bunker/capturas/es/5-meteoritos.webp?v=cafcc40c"><img src="../assets/img/bunker/capturas/es/5-meteoritos-chica.webp?v=5845689e" width="960" height="540" alt="Después de una lluvia de meteoritos" loading="lazy"></a><p>Después de una lluvia de meteoritos</p></li>
+        <li><a class="galeria__item" href="../assets/img/bunker/capturas/es/8-mapa.webp?v=ebd69c69"><img src="../assets/img/bunker/capturas/es/8-mapa-chica.webp?v=3f66388a" width="960" height="540" alt="El mapa del mundo y sus lugares" loading="lazy"></a><p>El mapa del mundo y sus lugares</p></li>
+        <li><a class="galeria__item" href="../assets/img/bunker/capturas/es/9-amigos.webp?v=fa20de99"><img src="../assets/img/bunker/capturas/es/9-amigos-chica.webp?v=d4a831d2" width="960" height="540" alt="Amigos: visitas, regalos y gente prestada" loading="lazy"></a><p>Amigos: visitas, regalos y gente prestada</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="bloque bloque--final" aria-labelledby="titulo-ayuda">
+    <div class="contenedor">
+      <div class="papel ayuda">
+        <h2 id="titulo-ayuda">¿Necesitás ayuda?</h2>
+        <p>Si tenés un problema con el juego, una idea o una pregunta, escribinos a <a href="mailto:contacto@forgeagames.com">contacto@forgeagames.com</a>.</p>
+        <p><a class="ayuda__link" href="privacidad/">Política de privacidad de Bunker</a></p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<dialog class="visor" aria-label="Capturas">
+  <figure class="visor__figura">
+    <img class="visor__img" src="" width="1920" height="1080" alt="">
+    <figcaption class="visor__pie"></figcaption>
+  </figure>
+  <button class="visor__boton visor__boton--ant" type="button" data-paso="-1" aria-label="Anterior">‹</button>
+  <button class="visor__boton visor__boton--sig" type="button" data-paso="1" aria-label="Siguiente">›</button>
+  <button class="visor__cerrar" type="button" aria-label="Cerrar">×</button>
+</dialog>
+
+</main>
+<footer class="pie">
+  <div class="pie__in">
+    <div class="pie__marca">
+      <img src="../assets/img/forgea/yunque.png?v=7bada921" width="64" height="54" alt="">
+      <div>
+        <img src="../assets/img/forgea/logo-linea.png?v=d638ceb3" width="149" height="18" alt="Forgea Games">
+        <p>Forjado píxel por píxel.</p>
+      </div>
+    </div>
+    <nav class="pie__links" aria-label="Enlaces">
+      <a href="./">Bunker</a>
+      <a href="privacidad/">Privacidad de Bunker</a>
+      <a href="mailto:contacto@forgeagames.com">contacto@forgeagames.com</a>
+    </nav>
+    <div class="idiomas idiomas--pie" role="group" aria-label="Idioma"><a href="./" hreflang="es" lang="es-419" title="Español" aria-current="true">ES</a><a href="../en/bunker/" hreflang="en" lang="en" title="English">EN</a><a href="../pt/bunker/" hreflang="pt-BR" lang="pt-BR" title="Português">PT</a></div>
+  </div>
+  <p class="pie__legal">© 2026 Forgea Games. Todos los derechos reservados.</p>
+</footer>
+<script src="../assets/js/sitio.js?v=b1e569f9" defer></script>
+</body>
+</html>

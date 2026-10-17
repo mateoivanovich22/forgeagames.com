@@ -1,0 +1,20 @@
+{
+ "name": "Forgea Games",
+ "short_name": "Forgea",
+ "start_url": "/",
+ "display": "browser",
+ "background_color": "#15100d",
+ "theme_color": "#15100d",
+ "icons": [
+  {
+   "src": "/assets/img/forgea/icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "/assets/img/forgea/icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  }
+ ]
+}
