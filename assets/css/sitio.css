@@ -205,11 +205,11 @@ p { margin: 0 0 1em; }
 .escena__cartel { position: absolute; top: clamp(14px, 3.2vw, 44px); left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; pointer-events: none; }
 .cartel { margin: 0; line-height: 0; border-style: solid; border-color: transparent; border-width: 24px 24px 30px; padding: 2px 18px 0;
   border-image: url(../img/ui/tabla.png) 24 24 30 24 fill / 24px 24px 30px 24px repeat; image-rendering: pixelated; filter: drop-shadow(0 6px 0 rgba(20, 10, 4, .45)); }
-.cartel img { width: 189px; height: 64px; image-rendering: pixelated; }
+.cartel img { width: min(371px, calc(100vw - 112px)); height: auto; image-rendering: pixelated; }
 .papelito { margin: -6px 0 0; padding: 6px 14px 8px; font: 700 .8125rem/1 var(--pixel-font); color: var(--tinta); letter-spacing: .04em; background: #f3e3c3; box-shadow: 0 -3px 0 0 #a58a5e, 0 3px 0 0 #a58a5e, -3px 0 0 0 #a58a5e, 3px 0 0 0 #a58a5e, 0 6px 0 0 rgba(0, 0, 0, .3); transform: rotate(-2deg); }
 @media (min-width: 900px) {
   .cartel { border-width: 48px 48px 60px; padding: 4px 40px 0; border-image-width: 48px 48px 60px 48px; }
-  .cartel img { width: 378px; height: 128px; }
+  .cartel img { width: 742px; height: 128px; }
   .papelito { margin-top: -10px; font-size: 1rem; padding: 8px 18px 10px; }
 }
 
