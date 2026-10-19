@@ -92,7 +92,7 @@ p { margin: 0 0 1em; }
 .menu__link { padding: 10px 12px; font: 600 1rem/1 var(--pixel-font); color: var(--texto); text-decoration: none; }
 .menu__link:hover { color: var(--fuego-claro); }
 .menu__solapa { display: inline-flex; align-items: center; gap: 8px; margin: 0 6px; padding: 6px 14px 6px 6px; font: 700 1rem/1 var(--pixel-font); color: #fff7e6; text-decoration: none; background: #613d29; box-shadow: 0 -4px 0 0 #2a170e, 0 4px 0 0 #2a170e, -4px 0 0 0 #2a170e, 4px 0 0 0 #2a170e, inset 0 4px 0 0 #875a38, inset 0 -4px 0 0 #3b2318; }
-.menu__solapa img { width: 28px; height: 28px; image-rendering: pixelated; box-shadow: 0 0 0 2px #2a170e; }
+.menu__solapa img { width: 28px; height: 28px; image-rendering: auto; box-shadow: 0 0 0 2px #2a170e; }
 .menu__solapa:hover { color: #fff7e6; filter: brightness(1.12); }
 .menu__solapa[aria-current] { background: #5fb845; color: #10260f; box-shadow: 0 -4px 0 0 #1f5531, 0 4px 0 0 #1f5531, -4px 0 0 0 #1f5531, 4px 0 0 0 #1f5531, inset 0 4px 0 0 #8fd94e, inset 0 -4px 0 0 #3f8f3d; }
 .idiomas { display: inline-flex; margin-left: 10px; box-shadow: 0 0 0 3px #3a2c22; }
@@ -148,7 +148,7 @@ p { margin: 0 0 1em; }
 .juego__arte img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; }
 .juego__info { display: flex; flex-direction: column; align-items: flex-start; }
 .juego__cabeza { display: flex; align-items: center; gap: 16px; margin-bottom: 16px; }
-.juego__icono { width: 72px; height: 72px; image-rendering: pixelated; box-shadow: 0 0 0 4px var(--linea); }
+.juego__icono { width: 64px; height: 64px; image-rendering: pixelated; box-shadow: 0 0 0 4px var(--linea); }
 .juego__nombre { margin: 0 0 8px; font-size: 2rem; }
 .juego__nombre a { color: var(--texto); text-decoration: none; }
 .juego__nombre a:hover { color: var(--fuego-claro); }
